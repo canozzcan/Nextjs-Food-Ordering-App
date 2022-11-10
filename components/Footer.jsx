@@ -2,7 +2,7 @@ import styles from "../styles/Footer.module.css";
 import Image from "next/image";
 
 const Footer = () => {
-  return (
+  return ( 
     <div className={styles.container}>
       <div className={styles.item}>
         <Image src="/img/bg.png" alt="" layout="fill" objectFit="contain"/>
